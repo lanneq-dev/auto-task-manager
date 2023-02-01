@@ -40,7 +40,6 @@ ReactJS & NestJS based Task Manager streamlines and simplifies your workflow, en
 
 ---
 ## 🔀 [WORKFLOW](https://t.me/lanneq_workflow)
-*when I MERGE with MAIN
 
 > FRONTEND
 - [x] F1. Init app and run
