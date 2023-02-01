@@ -8,7 +8,7 @@ ReactJS & NestJS based Task Manager streamlines and simplifies your workflow, en
 ---
 ## 🌏 HOW CAN YOU TRY MY APP:
  - ~~[YOUTUBE](https://link.com)~~
- - ~~[LANNEQ.TECH](https://lanneq.tech)~~
+ - [WEBAPP](https://userauth-6351d.web.app/login)
  - [TELEGRAM-BOT](https://t.me/laneautobot)
 
 ---
@@ -17,7 +17,7 @@ ReactJS & NestJS based Task Manager streamlines and simplifies your workflow, en
 > ### FOR FRONTEND:
  - yarn
  - ReactJS
- - ReduxToolkit, ReduxAsync, ReduxThunk
+ - ReduxToolkit
  - TypeScript
  - MUI
  - SCSS
@@ -26,7 +26,7 @@ ReactJS & NestJS based Task Manager streamlines and simplifies your workflow, en
  - ESlint (Google)
 
 > ### FOR BACKEND:
- - pnpm
+ - npm
  - Nest.JS
  - TypeScript
  - Prisma.JS
