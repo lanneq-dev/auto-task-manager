@@ -23,7 +23,7 @@ ReactJS & NestJS based Task Manager streamlines and simplifies your workflow, en
  - SCSS
  - GraphQL
  - Apollo
- - ESlint (Google)
+ - ESlint/Prettier
 
 > ### FOR BACKEND:
  - npm
@@ -35,7 +35,8 @@ ReactJS & NestJS based Task Manager streamlines and simplifies your workflow, en
  - Redis
  - PostgreSQL
  - Docker
- - ESlint (Google)
+ - ESlint/Prettier
+ - Swagger
 
 ---
 ## 🔀 WHAT I'M DOING NOW 
