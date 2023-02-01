@@ -39,16 +39,15 @@ ReactJS & NestJS based Task Manager streamlines and simplifies your workflow, en
  - Swagger
 
 ---
-## 🔀 WHAT I'M DOING NOW 
+## 🔀 [WORKFLOW](https://t.me/lanneq_workflow)
 *when I MERGE with MAIN
 
 > FRONTEND
-- [x] Init app and run
-- [x] Add and setup eslint and prettier
-- [ ] In progress...
+- [x] F1. Init app and run
+- [x] F2. Add and setup eslint and prettier
 
 > BACKEND
-- [x] Init nest app and run
-- [x] Add swagger | [link](https://t.me/lanneq_workflow/3)
-- [ ] Docker. Init and run
-- [ ] In progress...
+- [x] B1. Init nest app and run
+- [x] B2. Add swagger | [link](https://t.me/lanneq_workflow/3)
+- [x] B3. Docker. Init and run | [link](https://t.me/lanneq_workflow/5)
+- [x] B4. Init Prisma ans create schema | [link]()

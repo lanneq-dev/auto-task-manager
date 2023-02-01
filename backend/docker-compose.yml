@@ -1,0 +1,18 @@
+# docker-compose.yml
+version: '3.8'
+services:
+
+  postgres:
+    container_name: postgres_todo
+    image: postgres:latest
+    restart: always
+    environment:
+      - POSTGRES_USER=lanneq
+      - POSTGRES_PASSWORD=123
+    volumes:
+      - postgres:/var/lib/postgresql/data
+    ports:
+      - '5462:5462'
+
+volumes:
+  postgres:
