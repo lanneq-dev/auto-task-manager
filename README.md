@@ -49,4 +49,5 @@ ReactJS & NestJS based Task Manager streamlines and simplifies your workflow, en
 
 > BACKEND
 - [x] Init nest app and run
+- [x] Add swagger
 - [ ] In progress...
