@@ -38,7 +38,7 @@ ReactJS & NestJS based Task Manager streamlines and simplifies your workflow, en
 
 ---
 ## 🔀 WORKFLOW 
-*when I PUSH to MAIN
+*when I MERGE with MAIN
 
 > FRONTEND
 - [x] Init app and run
