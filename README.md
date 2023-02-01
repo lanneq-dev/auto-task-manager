@@ -42,11 +42,12 @@ ReactJS & NestJS based Task Manager streamlines and simplifies your workflow, en
 ## 🔀 [WORKFLOW](https://t.me/lanneq_workflow)
 
 > FRONTEND
-- [x] F1. Init app and run
-- [x] F2. Add and setup eslint and prettier
+- [x] Init app and run
+- [x] Add and setup eslint and prettier
 
 > BACKEND
-- [x] B1. Init nest app and run
-- [x] B2. Add swagger | [link](https://t.me/lanneq_workflow/3)
-- [x] B3. Docker. Init and run | [link](https://t.me/lanneq_workflow/5)
-- [ ] B4. Init Prisma ans create schema | [link]()
+- [x] Init nest app and run
+- [x] Add swagger | [link](https://t.me/lanneq_workflow/3)
+- [x] Docker. Init and run | [link](https://t.me/lanneq_workflow/5)
+- [x] Init Prisma and create schema | [link](https://t.me/lanneq_workflow/7)
+- [ ] 
