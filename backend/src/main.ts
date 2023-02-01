@@ -9,7 +9,6 @@ async function bootstrap() {
     .setTitle('👾 AUTO TASK MANAGER')
     .setDescription('Task manager with reminders in messengers.')
     .setVersion('v0.1')
-    .addTag('task')
     .build();
   const document = SwaggerModule.createDocument(app, config);
   SwaggerModule.setup('api', app, document);

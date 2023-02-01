@@ -50,4 +50,4 @@ ReactJS & NestJS based Task Manager streamlines and simplifies your workflow, en
 - [x] Add swagger | [link](https://t.me/lanneq_workflow/3)
 - [x] Docker. Init and run | [link](https://t.me/lanneq_workflow/5)
 - [x] Init Prisma and create schema | [link](https://t.me/lanneq_workflow/7)
-- [ ] 
+- [ ] Make controller for white and read from DB with prisma | []()
