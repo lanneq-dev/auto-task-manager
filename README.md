@@ -43,6 +43,7 @@ ReactJS & NestJS based Task Manager streamlines and simplifies your workflow, en
 
 > FRONTEND
 - [x] Init app and run
+- [x] Add and setup eslint and prettier
 - [ ] In progress...
 
 > BACKEND
