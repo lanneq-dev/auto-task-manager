@@ -30,7 +30,31 @@ async function main() {
     },
   });
 
-  console.log({ post1, post2 });
+  const post3 = await prisma.task.upsert({
+    where: { title: "What's new in Prisma? (Q1/22)!" },
+    update: {},
+    create: {
+      title: "What's new in Prisma? (Q1/22)!",
+      body: 'Our engineers have been working hard, issuing new releases with many improvements...',
+      description:
+        'Learn about everything in the Prisma ecosystem and community from January to March 2022.',
+      published: true,
+    },
+  });
+
+  const post4 = await prisma.task.upsert({
+    where: { title: "What's new in Prisma? (Q1/22)!!" },
+    update: {},
+    create: {
+      title: "What's new in Prisma? (Q1/22)!!",
+      body: 'Our engineers have been working hard, issuing new releases with many improvements...',
+      description:
+        'Learn about everything in the Prisma ecosystem and community from January to March 2022.',
+      published: true,
+    },
+  });
+
+  console.log({ post1, post2, post3, post4 });
 }
 
 // execute the main function

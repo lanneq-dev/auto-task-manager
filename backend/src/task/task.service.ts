@@ -11,11 +11,15 @@ export class TaskService {
   }
 
   findAll() {
-    return this.prisma.article.findMany({ where: { published: true } });
+    return this.prisma.task.findMany({ where: { published: true } });
+  }
+
+  findDrafts() {
+    return this.prisma.task.findMany({ where: { published: false } });
   }
 
   findOne(id: number) {
-    return `This action returns a #${id} task`;
+    return this.prisma.task.findUnique({ where: { id } });
   }
 
   update(id: number, updateTaskDto: UpdateTaskDto) {
