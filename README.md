@@ -46,11 +46,11 @@ ReactJS & NestJS based Task Manager streamlines and simplifies your workflow, en
 > ---
 >> - [x] Init app and run | [link](https://t.me/lanneq_workflow/12)
 >> - [x] Add and setup eslint and prettier [link](https://t.me/lanneq_workflow/13)
->> - [ ] Get data from Backend and map
+>> - [ ] Get data from Backend
 >> ---
 > Part 2. React + QraphQL. Get Data From Server
 > ---
->> - [x] Init app and run | [link](https://t.me/lanneq_workflow/12)
+>> - [ ] Init GraphQL
 
 
 ## 🐧 BACKEND
