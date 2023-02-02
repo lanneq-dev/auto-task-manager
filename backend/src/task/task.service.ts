@@ -23,7 +23,10 @@ export class TaskService {
   }
 
   update(id: number, updateTaskDto: UpdateTaskDto) {
-    return `This action updates a #${id} task`;
+    return this.prisma.article.update({
+      where: { id },
+      data: updateTaskDto,
+    });
   }
 
   remove(id: number) {

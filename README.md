@@ -52,4 +52,5 @@ ReactJS & NestJS based Task Manager streamlines and simplifies your workflow, en
 - [x] Init Prisma and create schema | [link](https://t.me/lanneq_workflow/7)
 - [x] CRUD (test) Swagger, REST API | [link](https://t.me/lanneq_workflow/8)
 - [x] CRUD. REST API. GetAll, getOne task works | [link](https://t.me/lanneq_workflow/10)
-- [ ] CRUD. POST | []()
+- [x] CRUD. Post work | [link](https://t.me/lanneq_workflow/11)
+- [x] CRUD. Update work | [link](https://t.me/lanneq_workflow/11)
