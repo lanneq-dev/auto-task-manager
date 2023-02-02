@@ -12,7 +12,7 @@ ReactJS & NestJS based Task Manager streamlines and simplifies your workflow, en
  - [TELEGRAM-BOT](https://t.me/laneautobot)
 
 ---
-## 🛠 WHAT I USED IN THE PROJECT:
+## 🛠 WHAT I USED IN THIS PROJECT:
 - [ALL MY TOLLS](https://www.notion.so/What-I-regular-use-910e1b59d8e14e21bc1cfea87bea6a5c)
 > ### FOR FRONTEND:
  - yarn
