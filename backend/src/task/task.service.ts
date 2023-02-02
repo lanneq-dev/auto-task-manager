@@ -7,7 +7,7 @@ import { PrismaService } from 'src/prisma/prisma.service';
 export class TaskService {
   constructor(private prisma: PrismaService) {}
   create(createTaskDto: CreateTaskDto) {
-    return 'This action adds a new task';
+    return this.prisma.task.create({ data: createTaskDto });
   }
 
   findAll() {
