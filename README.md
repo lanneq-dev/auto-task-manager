@@ -40,12 +40,18 @@ ReactJS & NestJS based Task Manager streamlines and simplifies your workflow, en
 ---
 # 🚀 [WORKFLOW](https://t.me/lanneq_workflow)
 
+
 ## 🦩 FRONTEND
-> Part 1. CRUD. Nest + Prisma + Swagger
+> Part 1. Axios. CRUD with Backend
 > ---
->> - [x] Init app and run
->> - [x] Add and setup eslint and prettier
+>> - [x] Init app and run | [link](https://t.me/lanneq_workflow/12)
+>> - [x] Add and setup eslint and prettier [link](https://t.me/lanneq_workflow/13)
+>> - [ ] Get data from Backend and map
 >> ---
+> Part 2. React + QraphQL. Get Data From Server
+> ---
+>> - [x] Init app and run | [link](https://t.me/lanneq_workflow/12)
+
 
 ## 🐧 BACKEND
 > Part 1. CRUD. Nest + Prisma + Swagger
@@ -58,6 +64,7 @@ ReactJS & NestJS based Task Manager streamlines and simplifies your workflow, en
 >> - [x] CRUD. REST API. GetAll, getOne task works | [link](https://t.me/lanneq_workflow/10)
 >> - [x] CRUD. Post work | [link](https://t.me/lanneq_workflow/11)
 >> - [x] CRUD. Update work | [link](https://t.me/lanneq_workflow/11)
+>> - [x] CRUD. Delete work
 >> ---
 > Part 2. Nest + GraphQL
 > ---
