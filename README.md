@@ -1,6 +1,6 @@
 # 👾 auto-task-manager
 ### Task manager with reminders in messengers. Tracks only one main task per day.
-
+__current v0.1__
 ---
 ## 🪧 Description:
 ReactJS & NestJS based Task Manager streamlines and simplifies your workflow, enabling you to easily manage tasks, assign them to team members, set deadlines, and monitor progress. With our intuitive interface, you'll be able to easily create, edit, and delete tasks, define milestones, collaborate with team members, and track the overall progress. With our Task Manager, you'll have full control over any project with real-time updates and notifications, giving you the power to ensure your projects are completed on time and within budget.
@@ -13,7 +13,6 @@ ReactJS & NestJS based Task Manager streamlines and simplifies your workflow, en
 
 ---
 ## 🛠 What I use in this project:
-- [HERE ALL MY TOLLS](https://www.notion.so/What-I-regular-use-910e1b59d8e14e21bc1cfea87bea6a5c)
 > ### FOR FRONTEND:
  - yarn
  - ReactJS
@@ -38,6 +37,8 @@ ReactJS & NestJS based Task Manager streamlines and simplifies your workflow, en
  - Swagger
  - ESlint/Prettier
 ---
+#### [HERE ALL MY TOLLS](https://www.notion.so/What-I-regular-use-910e1b59d8e14e21bc1cfea87bea6a5c)
+---
 # 🚀 [WORKFLOW](https://t.me/lanneq_workflow)
 
 
@@ -60,11 +61,11 @@ ReactJS & NestJS based Task Manager streamlines and simplifies your workflow, en
 >> - [x] Add swagger | [link](https://t.me/lanneq_workflow/3)
 >> - [x] Docker. Init and run | [link](https://t.me/lanneq_workflow/5)
 >> - [x] Init Prisma and create schema | [link](https://t.me/lanneq_workflow/7)
->> - [x] CRUD (test) Swagger, REST API | [link](https://t.me/lanneq_workflow/8)
->> - [x] CRUD. REST API. GetAll, getOne task works | [link](https://t.me/lanneq_workflow/10)
->> - [x] CRUD. Post work | [link](https://t.me/lanneq_workflow/11)
->> - [x] CRUD. Update work | [link](https://t.me/lanneq_workflow/11)
->> - [x] CRUD. Delete work
+>> - [x] Swagger added, REST API | [link](https://t.me/lanneq_workflow/8)
+>> - [x] CRUD. ```findAll```, ```getDraft``` works | [link](https://t.me/lanneq_workflow/10)
+>> - [x] CRUD. ```post()``` work | [link](https://t.me/lanneq_workflow/11)
+>> - [x] CRUD. ```update()``` work | [link](https://t.me/lanneq_workflow/11)
+>> - [x] CRUD. ```remove()``` work
 >> ---
 > Part 2. Nest + GraphQL
 > ---
