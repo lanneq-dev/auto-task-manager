@@ -4,11 +4,11 @@ services:
 
   postgres:
     container_name: postgres_todo
-    image: postgres:latest
+    image: auto_task_manager
     restart: always
     environment:
-      - POSTGRES_USER=lanneq
-      - POSTGRES_PASSWORD=123
+      - POSTGRES_USER=pokeradmin
+      - POSTGRES_PASSWORD=GHBDTN!@
     volumes:
       - postgres:/var/lib/postgresql/data
     ports:
