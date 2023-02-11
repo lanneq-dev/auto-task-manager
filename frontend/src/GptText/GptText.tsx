@@ -11,14 +11,27 @@ interface FormProps {
 export default function GptText() {
   const [text, setText] = useState([]);
   const [loading, setLOading] = useState(false);
+  const [refresher, setRefresher] = useState('');
 
   const ferText = useRef<HTMLTextAreaElement>(null);
   const editedText = useRef<HTMLTextAreaElement>(null);
+  const techName = useRef<HTMLInputElement>(null);
   // eslint-disable-next-line @typescript-eslint/no-empty-function
 
-  useEffect(() => {
-    console.log(editedText.current?.value);
-  });
+  const nameCommand = techName.current?.value;
+
+  const comment = `Заполни массив командами ${nameCommand} на основе приведенного примера. Добавь максимально много команд. Описание команд должно быть на русском языке. Не ставь знак ; в конце объекта.  Верни ответ в формате JSON.`;
+  const tmux = [
+    {
+      command: [`${nameCommand} command1`, 'command description']
+    },
+    {
+      command: [`${nameCommand} command2`, 'command description']
+    },
+    {
+      command: [`${nameCommand} command3`, 'command description']
+    }
+  ];
 
   const sendText = async (e: { preventDefault: () => void }) => {
     const headers = {
@@ -26,7 +39,7 @@ export default function GptText() {
     };
 
     const data = {
-      title: `${ferText.current?.value}`
+      title: `${JSON.stringify(tmux)}; ${comment}`
     };
 
     e.preventDefault();
@@ -65,16 +78,30 @@ export default function GptText() {
   return (
     <div className={s.container}>
       <form onSubmit={sendText}>
-        <div>
-          <textarea
+        <div className={s.header}>
+          <div>
+            <input
+              onInput={(e) => setRefresher(e.currentTarget.value)}
+              ref={techName}
+              className={s.techName}
+              type="text"
+              name=""
+              id=""
+            />
+          </div>
+          <div>
+            <button className={s.button} type="submit">
+              {'Generate'}
+            </button>
+          </div>
+          {/* <textarea
             ref={ferText}
             value={JSON.stringify(tmux) + '\n\n' + comment}
             name=""
             id=""
             cols={30}
-            rows={10}></textarea>
+            rows={10}></textarea> */}
         </div>
-        <button type="submit">Generate</button>
         {loading ? (
           <div className={s.animation}>
             <CircularProgress />
@@ -82,24 +109,11 @@ export default function GptText() {
         ) : (
           <div>
             {/* <textarea ref={editedText} defaultValue={'text'} cols={30} rows={20} /> */}
-            <div>{commands ? commands : 'nooooo(('}</div>
+            <div>{commands}</div>
           </div>
         )}
       </form>
+      <div style={{ display: 'none' }}>{refresher}</div>
     </div>
   );
 }
-
-export const comment = 'generate array with common tmux commands. Return as JSON.';
-export const tmux = `[
-  {
-    command: ['tmux command1', 'command description']
-  },
-  {
-    command: [' tmux command2', 'command description']
-  },
-  {
-    command: ['tmux command3', 'command description']
-  }
-  ...
-]`;
