@@ -12,9 +12,11 @@ export class AppService {
     });
     const openai = new OpenAIApi(configuration);
 
+    console.log(createTaskDto.title);
+
     const responseText = await openai.createCompletion({
       model: 'text-davinci-003',
-      prompt: createTaskDto.body,
+      prompt: createTaskDto.title,
       temperature: 0.9,
       max_tokens: 100,
       top_p: 1,
