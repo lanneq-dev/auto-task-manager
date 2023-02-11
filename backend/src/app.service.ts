@@ -18,13 +18,13 @@ export class AppService {
       model: 'text-davinci-003',
       prompt: createTaskDto.title,
       temperature: 0.9,
-      max_tokens: 100,
+      max_tokens: 1000,
       top_p: 1,
       frequency_penalty: 0.0,
       presence_penalty: 0.6,
       stop: [' Human:', ' AI:'],
     });
-    console.log(responseText.data.choices[0].text);
+    console.log('BACKEND RESULT:\n\n', responseText.data.choices[0].text);
     return responseText.data.choices[0].text;
   };
 
