@@ -30,3 +30,14 @@ model Task {
   updatedAt   DateTime @updatedAt
 }
 
+model Card {
+  id          Int      @id @default(autoincrement())
+  description String?
+  header      String?
+  name        String?
+  use         Int?
+  createdAt   DateTime @default(now())
+  command     String?
+  raiting     Int?
+  language    String?
+}

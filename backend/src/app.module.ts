@@ -8,7 +8,13 @@ import { GptTextGenModule } from './gpt-text-gen/gpt-text-gen.module';
 import { PokerbotModule } from './pokerbot/pokerbot.module';
 
 @Module({
-  imports: [PrismaModule, ArticlesModule, TaskModule, PokerbotModule],
+  imports: [
+    PrismaModule,
+    ArticlesModule,
+    TaskModule,
+    PokerbotModule,
+    GptTextGenModule,
+  ],
   controllers: [AppController],
   providers: [AppService],
 })

@@ -11,18 +11,13 @@ import { GptTextGenService } from './gpt-text-gen.service';
 import { CreateGptTextGenDto } from './dto/create-gpt-text-gen.dto';
 import { UpdateGptTextGenDto } from './dto/update-gpt-text-gen.dto';
 
-@Controller('gptext')
+@Controller('gen')
 export class GptTextGenController {
   constructor(private readonly gptTextGenService: GptTextGenService) {}
 
   @Post()
-  generateText(@Body() createGptTextGenDto: CreateGptTextGenDto) {
-    return 'text from gpt';
-  }
-
-  @Post()
   create(@Body() createGptTextGenDto: CreateGptTextGenDto) {
-    return this.gptTextGenService.create(createGptTextGenDto);
+    return this.gptTextGenService.runGen(createGptTextGenDto);
   }
 
   @Get()

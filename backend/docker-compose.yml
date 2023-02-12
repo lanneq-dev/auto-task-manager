@@ -3,12 +3,13 @@ version: '3.8'
 services:
 
   postgres:
-    container_name: postgres_todo
-    image: auto_task_manager
+    image: postgres:alpine3.17
+    container_name: autotaskmanager
     restart: always
     environment:
-      - POSTGRES_USER=pokeradmin
+      - POSTGRES_USER=keylogger
       - POSTGRES_PASSWORD=GHBDTN!@
+      - POSTGRES_DB=commondb
     volumes:
       - postgres:/var/lib/postgresql/data
     ports:

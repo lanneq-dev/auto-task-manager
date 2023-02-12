@@ -20,7 +20,7 @@ export default function GptText() {
 
   const nameCommand = techName.current?.value;
 
-  const comment = `Заполни массив командами ${nameCommand} на основе приведенного примера. Добавь максимально много команд. Описание команд должно быть на русском языке. Не ставь знак ; в конце объекта.  Верни ответ в формате JSON.`;
+  const comment = `Fill out the array of real work ${nameCommand} teams based on the above example structure. Add as many teams as much as possible. Do not put a sign;At the end of the object. Return the answer in json format.`;
   const tmux = [
     {
       command: [`${nameCommand} command1`, 'command description']
@@ -68,9 +68,12 @@ export default function GptText() {
     // eslint-disable-next-line react/jsx-key
     return (
       // eslint-disable-next-line react/jsx-key
-      <div className={s.commandsList} key={uuidv4()}>
-        <div className={[s.commandsListEl, s.left].join(', ')}>{el.command[0]}</div>
+      <div className={s.commandsList} key={uuidv4()} onClick={(e) => e.target.addEventListener}>
+        <code>
+          <div className={[s.commandsListEl, s.left].join(', ')}>{el.command[0]}</div>
+        </code>
         <div className={[s.commandsListEl, s.right].join(', ')}>{el.command[1]}</div>
+        <div className={s.savebutton}>save</div>
       </div>
     );
   });
